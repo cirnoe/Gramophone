@@ -36,13 +36,13 @@
 		android:layout_width="0dp"
 		android:layout_height="0dp"
 		android:layout_marginHorizontal="24dp"
-		android:layout_marginTop="aide_dodp"
+		android:layout_marginTop="16dp"
 		app:cardBackgroundColor="@android:color/transparent"
 		app:cardCornerRadius="22dp"
 		app:layout_constraintDimensionRatio="1:1"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toBottomOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/slide_down"
 		app:strokeWidth="0dp">
 
 		<org.akanework.gramophone.ui.components.TransformableImageView
@@ -67,7 +67,7 @@
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintHeight_min="250dp"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toBottomOf="@id4album_cover_frame">
+		app:layout_constraintTop_toBottomOf="@id/album_cover_frame">
 
 		<!-- TODO remove useless LinearLayout -->
 		<LinearLayout
@@ -305,7 +305,7 @@
 		android:paddingStart="24dp"
 		android:paddingTop="4dp"
 		android:paddingEnd="24dp"
-		android:paddingBottom="16dp"
+		android:paddingBottom="4dp"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="@id/controls"
 		app:layout_constraintStart_toStartOf="@id/controls">
