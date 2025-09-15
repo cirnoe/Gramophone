@@ -242,7 +242,6 @@ class FullBottomSheet
         bottomSheetFullDuration = findViewById(R.id.duration)
         bottomSheetFullSeekBar = findViewById(R.id.slider_squiggly)
         bottomSheetFullSlider = findViewById(R.id.slider_vert)
-        bottomSheetFullSlideUpButton = findViewById(R.id.slide_down)
         bottomSheetShuffleButton = findViewById(R.id.sheet_random)
         bottomSheetLoopButton = findViewById(R.id.sheet_loop)
         bottomSheetTimerButton = findViewById(R.id.timer)
