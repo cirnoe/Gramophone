@@ -29,6 +29,6 @@
         app:paddingBottomSystemWindowInsets="false"
         app:layout_behavior="org.akanework.gramophone.logic.ui.MyBottomSheetBehavior"
         android:backgroundTint="?attr/colorSurfaceContainer"
-        tools:behavior_peekHeight="946dp" />
+        tools:behavior_peekHeight="1000dp" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
