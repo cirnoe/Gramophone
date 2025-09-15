@@ -305,7 +305,7 @@
 		android:paddingStart="24dp"
 		android:paddingTop="4dp"
 		android:paddingEnd="24dp"
-		android:paddingBottom="16dpdp"
+		android:paddingBottom="16dp"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="@id/controls"
 		app:layout_constraintStart_toStartOf="@id/controls">
