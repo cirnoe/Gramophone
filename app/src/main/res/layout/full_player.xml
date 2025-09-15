@@ -36,13 +36,13 @@
 		android:layout_width="0dp"
 		android:layout_height="0dp"
 		android:layout_marginHorizontal="24dp"
-		android:layout_marginTop="0dp"
+		android:layout_marginTop="aide_dodp"
 		app:cardBackgroundColor="@android:color/transparent"
 		app:cardCornerRadius="22dp"
 		app:layout_constraintDimensionRatio="1:1"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toBottomOf="@id/slide_down"
+		app:layout_constraintTop_toBottomOf="parent"
 		app:strokeWidth="0dp">
 
 		<org.akanework.gramophone.ui.components.TransformableImageView
