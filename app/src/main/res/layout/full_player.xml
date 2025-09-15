@@ -296,20 +296,21 @@
 	</androidx.constraintlayout.widget.ConstraintLayout>
 
 	<!-- TODO remove useless LinearLayout! -->
-	<LinearLayout
-		android:id="@+id/actionBar"
-		android:layout_width="0dp"
-		android:layout_height="wrap_content"
-		android:layout_marginHorizontal="14dp"
-		android:gravity="end"
-		android:paddingStart="24dp"
-		android:paddingTop="4dp"
-		android:paddingEnd="24dp"
-		android:paddingBottom="4dp"
-		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintEnd_toEndOf="@id/controls"
-		app:layout_constraintStart_toStartOf="@id/controls">
-
+	
+    <LinearLayout
+	    android:id="@+id/actionBar"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginHorizontal="14dp"
+	    android:gravity="end"
+	    android:paddingStart="24dp"
+	    android:paddingTop="4dp"
+	    android:paddingEnd="24dp"
+	    android:paddingBottom="0dp"
+	    app:layout_constraintBottom_toBottomOf="parent"
+	    app:layout_constraintEnd_toEndOf="@id/controls"
+	    app:layout_constraintStart_toStartOf="@id/controls">
+		
 		<com.google.android.material.button.MaterialButton
 			android:id="@+id/lyrics"
 			android:layout_width="48dp"
