@@ -208,7 +208,6 @@ class FullBottomSheet
     private val bottomSheetFullDuration: TextView
     private val bottomSheetFullPosition: TextView
     private var bottomSheetFullQualityDetails: TextView
-    private val bottomSheetFullSlideUpButton: MaterialButton
     private val bottomSheetShuffleButton: MaterialButton
     private val bottomSheetLoopButton: MaterialButton
     private val bottomSheetPlaylistButton: MaterialButton
@@ -501,11 +500,6 @@ class FullBottomSheet
 
         bottomSheetFullSeekBar.setOnSeekBarChangeListener(touchListener)
         bottomSheetFullSlider.addOnSliderTouchListener(touchListener)
-
-        bottomSheetFullSlideUpButton.setOnClickListener {
-            ViewCompat.performHapticFeedback(it, HapticFeedbackConstantsCompat.CONTEXT_CLICK)
-            minimize?.invoke()
-        }
 
         bottomSheetLyricButton.setOnClickListener {
             ViewCompat.performHapticFeedback(it, HapticFeedbackConstantsCompat.CONTEXT_CLICK)
