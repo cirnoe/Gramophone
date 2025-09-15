@@ -990,9 +990,7 @@ class FullBottomSheet
                 ColorStateList.valueOf(colorOnSurface)
             bottomSheetFullPreviousButton.iconTint =
                 ColorStateList.valueOf(colorOnSurface)
-            bottomSheetFullSlideUpButton.iconTint =
-                ColorStateList.valueOf(colorOnSurface)
-
+        
             bottomSheetFullPosition.setTextColor(
                 colorOnSurfaceVariant
             )
