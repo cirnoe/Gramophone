@@ -11,7 +11,7 @@
 	android:clipToPadding="false"
 	android:clipChildren="false">
 
-<com.google.android.material.button.MaterialButton
+	<com.google.android.material.button.MaterialButton
 		android:id="@+id/slide_down"
 		android:layout_width="52dp"
 		android:layout_height="52dp"
@@ -30,7 +30,7 @@
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toTopOf="parent"
 		app:layout_constraintVertical_bias="0.0" />
-	
+
 	<com.google.android.material.card.MaterialCardView
 		android:id="@+id/album_cover_frame"
 		android:layout_width="0dp"
@@ -42,6 +42,7 @@
 		app:layout_constraintDimensionRatio="1:1"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/slide_down"
 		app:strokeWidth="0dp">
 
 		<org.akanework.gramophone.ui.components.TransformableImageView
